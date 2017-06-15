@@ -1,0 +1,11 @@
+year-month-day
+
+
+weekly/daily:
+>adddaily startdate enddate eventtime eventname
+//addDaily creates events called eventName on every day from start date to end date (both inclusive) at eventTime
+//addWeekly creates events called eventName on every seven days starting at startDate (inclusive) and ending at endDate (exclusive) at eveentTime
+
+>remove enddate eventname
+//removes every event called eventname from present to enddate
+
